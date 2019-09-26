@@ -5,3 +5,20 @@ body {
     background-image: url("https://cdn.hipwallpaper.com/i/14/87/Anu85V.jpg");
     
 }
+
+.card {
+
+    block-size: 0px;
+    
+}
+.card-image { margin : 70px;
+}
+
+.box {
+ background-color: rgb(47, 255, 227);
+ padding: 20px;
+ padding-left: 25px;
+ margin: 20px;
+
+ 
+}

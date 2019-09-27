@@ -1,15 +1,15 @@
-.container{
-    margin-top: 25px;
-}
+
+
+
+
 body {
     background-image: url("https://cdn.hipwallpaper.com/i/14/87/Anu85V.jpg");
     
 }
-
 .card {
 
     block-size: 0px;
-    
+   
 }
 .card-image { margin : 70px;
 }
@@ -21,3 +21,4 @@ body {
  margin: 25px;
 
 }
+

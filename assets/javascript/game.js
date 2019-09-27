@@ -1,23 +1,27 @@
 const renderGems = () => {
-    document.getElementById('gems').innerHtML =''
- for(let i = 0; i < 3; i++) {
-     const random = Math.floor(Math.random() * 30) +1
+    document.getElementById('gems').innerHTML =''
+ for (let i = 0; i < 3; i++) {
+     const random = Math.floor(Math.random() * 20) + 1
    let gemElem = document.createElement('div')
-    gemElem.className = 'co s4'
-    gemElem.innnerHTML = `
-    div class = "card" data->value= "${random} >
-    div class = "card-image">
-     <img src ="./gem${i + 1}">.png"
+    gemElem.className = 'col s4'
+    gemElem.innerHTML = `
+    <div class="card" data-value="${random}">
+      <div class="card-image">
+        <img src="C:\Users\Jawed\Documents\nit-4-game\assets\gems\gem${i + 1}".gif">
+      </div>
     </div>
-    </div>
-    
     `
   document.getElementById('gems').append(gemElem)
 
   }
 }
+document.addEventListener('click', event => {
+  if (even.target.className === 'gem'){
+    console.log('you clicked a gem')
+  
+  }
+})
 
 
-console.log(renderGems)
 
 
